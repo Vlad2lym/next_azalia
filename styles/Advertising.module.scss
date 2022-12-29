@@ -1,0 +1,70 @@
+.area{
+    width: 332px;
+    height: 437px;
+    margin: 15px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2E2E33;
+}
+
+.banner1{
+    width: 332px;
+    height: 140px;
+    background-color: #636B7F;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner1_info{
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: white;
+        margin-left: 15px;
+    }
+}
+
+.discount{
+    width: 64px;
+    height: 24px;
+    background-color: #FFDC38;
+    transform: skew(-30deg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 22px 55px 0 15px;
+    p{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
+        color: #2E2E33;
+        transform: skew(30deg);
+    }
+}
+
+.banner2{
+    width: 332px;
+    height: 140px;
+    background-color: #F5F5F7;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    h2{
+        color: #2E2E33;
+        font-size: 15px;
+        line-height: 24px;
+        margin-left: 5px;
+    }
+    .discount{
+        margin: 23px 0 0 25px;
+    }
+}

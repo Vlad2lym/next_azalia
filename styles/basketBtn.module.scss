@@ -1,0 +1,70 @@
+.basket{
+    width: 175px;
+    height: 40px;
+    background: #00B177;
+    border-radius: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    p{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        color: white;
+    }
+}
+
+.addBasket{
+    width: 175px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.addBasketBtn{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background-color: #4056A1;
+    border-radius: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    p{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        color: white;
+    }
+}
+
+.addBasketNumberProd{
+    width: 119px;
+    height: 40px;
+    background-color: #F5F5F7;
+    border-radius: 30px;
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    img{
+        margin-right: 10px;
+
+    }
+    p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        color: #2E2E33;
+        margin-right: 10px;
+    }
+    .minus, .plus{
+        font-size: 18px;
+        cursor: pointer;
+        opacity: 0.3;
+    }
+}

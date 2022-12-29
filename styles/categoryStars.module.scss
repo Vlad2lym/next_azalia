@@ -1,0 +1,15 @@
+.categoryStars{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 28px;
+    p{
+        font-size: 12px;
+        line-height: 20px;
+        color: #999999;
+        margin: 0;
+        padding-left: 2px;
+    }
+    .stars{
+        display: flex;
+    }
+}
